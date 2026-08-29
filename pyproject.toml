@@ -38,5 +38,6 @@ select = ["E", "F", "I", "UP", "B", "SIM"]
 
 [tool.pyright]
 include = ["src", "tests", "examples"]
+extraPaths = ["src"]
 pythonVersion = "3.12"
 typeCheckingMode = "standard"
